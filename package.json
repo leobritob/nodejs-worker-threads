@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 3333"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "worker-threads-pool": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.1",
+    "nodemon": "^2.0.7"
+  }
+}
